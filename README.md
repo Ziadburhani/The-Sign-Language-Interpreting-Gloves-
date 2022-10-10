@@ -6,6 +6,11 @@
 # The-Sign-Language-Interpreting-Gloves-
 Building a sign language translator gloves for final year project 
 
-Sign language is the native language and the most comfortable method of communication of the deaf and hard of hearing individuals, and this technology not only offers to interpret to the non-signers in order to facilitate and bridge the communication, but also: Encourages the proud use of sign language Promotes independence & career opportunities Improves quality of life by boosting confidence Fights the stigma about deafness by raising awareness Saves money
+Sign language is the native language and the most comfortable method of communication of the deaf and hard of hearing individuals, and this technology not only offers to interpret to the non-signers in order to facilitate and bridge the communication, but also: 
+1-Encourages the proud use of sign language 
+2-Promotes independence & career opportunities 
+3-Improves quality of life by boosting confidence 
+4-Fights the stigma about deafness by raising awareness 
+5-Saves money
 
 This program uses ESP32 , MPU6050 Sensor, Flex Sensors and works through Bluetooth using two different apps First App : Serial Bluetooth Terminal which transfer text from ESP32 serial monitor to bluetooth serial send data as text Second App: Arduino Bluetooth Text to Speech converts text into speech
