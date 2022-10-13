@@ -393,32 +393,32 @@ else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexval
   SerialBT.println('T');
   Serial.println("Letter T");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2500)and(flexvalue_1<=2700)and(flexvalue_2>1900)and(flexvalue_2<=2100)and(flexvalue_3>2400)and(flexvalue_3<=2600)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2900)and(flexvalue_5<=3100))
 {
   SerialBT.println('U');
-  Serial.println("Letter U");
+  Serial.println("Letter U"); // should use a digital pin to differentiate U from V 
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2600)and(flexvalue_3<=2800)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3100)and(flexvalue_5<=3300))
 {
   SerialBT.println('V');
-  Serial.println("Letter V");
+  Serial.println("Letter V"); 
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2500)and(flexvalue_3<=2700)and(flexvalue_4>2500)and(flexvalue_4<=2700)and(flexvalue_5>3300)and(flexvalue_5<=3500))
 {
   SerialBT.println('W');
   Serial.println("Letter W");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2800)and(flexvalue_1<=3000)and(flexvalue_2>2800)and(flexvalue_2<=3000)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3500)and(flexvalue_5<=3700))
 {
   SerialBT.println('X');
   Serial.println("Letter X");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2000)and(flexvalue_1<=2200)and(flexvalue_2>3500)and(flexvalue_2<=3700)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
 {
   SerialBT.println('Y');
   Serial.println("Letter Y");
 }
-else if((flexvalue_1>2400)and(flexvalue_2>2000)and(flexvalue_3>3900)and(flexvalue_4>3900)and(flexvalue_5>3400))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3400)and(flexvalue_5<=3600))
 {
   SerialBT.println('Z');
   Serial.println("Letter Z");
