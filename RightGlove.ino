@@ -296,99 +296,99 @@ else if((flexvalue_1>2100)and(flexvalue_1<=2300)and(flexvalue_2>2800)and(flexval
   delay(1000); // can change the delay depending on your requirements 
 }
 
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2100)and(flexvalue_2<=2300)and(flexvalue_3>2600)and(flexvalue_3<=2800)and(flexvalue_4>2400)and(flexvalue_4<=2600)and(flexvalue_5>2000)and(flexvalue_5<=2200))
 {
   SerialBT.println('B');
   Serial.println("Letter B");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2500)and(flexvalue_2<=2700)and(flexvalue_3>3700)and(flexvalue_3<=3900)and(flexvalue_4>3100)and(flexvalue_4<=3300)and(flexvalue_5>2500)and(flexvalue_5<=2700))
 {
   SerialBT.println('C');
   Serial.println("Letter C");
 }
-else if((flexvalue_1>2400)and(flexvalue_2>2000)and(flexvalue_3>3800)and(flexvalue_4>3800)and(flexvalue_5>3000))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3800)and(flexvalue_3<=4000)and(flexvalue_4>3800)and(flexvalue_1<=4000)and(flexvalue_5>3000)and(flexvalue_1<=3200)
 {
   SerialBT.println('D');
   Serial.println("Letter D");
   delay(1000);
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2800)and(flexvalue_1<=3000)and(flexvalue_2>3100)and(flexvalue_2<=3300)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3000)and(flexvalue_5<=3200))
 {
   SerialBT.println('E');
   Serial.println("Letter E");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2100)and(flexvalue_1<=2300)and(flexvalue_2>2400)and(flexvalue_2<=2600)and(flexvalue_3>2800)and(flexvalue_3<=3000)and(flexvalue_4>2300)and(flexvalue_4<=2500)and(flexvalue_5>2100)and(flexvalue_5<=2300))
 {
   SerialBT.println('F');
   Serial.println("Letter F");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2300)and(flexvalue_2<=2500)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3600)and(flexvalue_5<=3800))
 {
   SerialBT.println('G');
   Serial.println("Letter G");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2500)and(flexvalue_3<=2700)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3000)and(flexvalue_5<=3200))
 {
   SerialBT.println('H');
   Serial.println("Letter H");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
 {
   SerialBT.println('I');
   Serial.println("Letter I");
   delay(1000);
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2900)and(flexvalue_1<=3100)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2100)and(flexvalue_5<=2300))
 {
   SerialBT.println('J');
   Serial.println("Letter J");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2900)and(flexvalue_3<=3100)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3100)and(flexvalue_5<=3300))
 {
   SerialBT.println('K');
   Serial.println("Letter K");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2200)and(flexvalue_1<=2400)and(flexvalue_2>2100)and(flexvalue_2<=2300)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3600)and(flexvalue_5<=3800))
 {
   SerialBT.println('L');
   Serial.println("Letter L");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3700)and(flexvalue_3<=3900)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2800)and(flexvalue_5<=3000))
 {
   SerialBT.println('M');
   Serial.println("Letter M");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2900)and(flexvalue_2<=3100)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3700)and(flexvalue_4<=3900)and(flexvalue_5>3000)and(flexvalue_5<=3200))
 {
   SerialBT.println('N');
   Serial.println("Letter N");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3100)and(flexvalue_2<=3300)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3200)and(flexvalue_5<=3400))
 {
   SerialBT.println('O');
   Serial.println("Letter O");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2500)and(flexvalue_1<=2700)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3000)and(flexvalue_3<=3200)and(flexvalue_4>3800)and(flexvalue_4<=4000)and(flexvalue_5>2900)and(flexvalue_5<=3100))
 {
   SerialBT.println('P');
   Serial.println("Letter P");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2200)and(flexvalue_2<=2400)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3300)and(flexvalue_5<=3500))
 {
   SerialBT.println('Q');
   Serial.println("Letter Q");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>1900)and(flexvalue_2<=2100)and(flexvalue_3>2600)and(flexvalue_3<=2800)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2900)and(flexvalue_5<=3100))
 {
   SerialBT.println('R');
   Serial.println("Letter R");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2800)and(flexvalue_1<=30000)and(flexvalue_2>3500)and(flexvalue_2<=3700)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3500)and(flexvalue_5<=3700))
 {
   SerialBT.println('S');
   Serial.println("Letter S");
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3000)and(flexvalue_2<=3200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2200)and(flexvalue_1<=2400)and(flexvalue_2>3200)and(flexvalue_2<=3400)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3200)and(flexvalue_5<=3400))
 {
   SerialBT.println('T');
   Serial.println("Letter T");
