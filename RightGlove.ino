@@ -306,7 +306,7 @@ else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2500)and(flexval
   SerialBT.println('C');
   Serial.println("Letter C");
 }
-else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3800)and(flexvalue_3<=4000)and(flexvalue_4>3800)and(flexvalue_1<=4000)and(flexvalue_5>3000)and(flexvalue_1<=3200)
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3800)and(flexvalue_3<=4000)and(flexvalue_4>3800)and(flexvalue_1<=4000)and(flexvalue_5>3000)and(flexvalue_1<=3200))
 {
   SerialBT.println('D');
   Serial.println("Letter D");
