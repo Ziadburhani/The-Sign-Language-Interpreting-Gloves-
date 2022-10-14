@@ -260,10 +260,10 @@ void loop() {
 
 /*Example 
   if((flexvalue_1>??)and(flexvalue_1<=??)and(flexvalue_2>??)and(flexvalue_2<=??)(flexvalue_3>??)and(flexvalue_3<=??)and(flexvalue_4>??)and(flexvalue_4<=??)(flexvalue_5>??)and(flexvalue_5<=??)) {
-  SerialBT.println("The reuired Letter or WOrd"); }
+  SerialBT.println("The required Letter or WOrd"); }
   
   Else if((flexvalue_1>??)and(flexvalue_1<=??)and(flexvalue_2>??)and(flexvalue_2<=??)(flexvalue_3>??)and(flexvalue_3<=??)and(flexvalue_4>??)and(flexvalue_4<=??)and(flexvalue_5>??)and(flexvalue_5<=??)and(Xgyro>??)and(Xgyro<=??)and(Ygyro>??)and(Ygyro<=??)){
-  SerialBT.println("The reuired Letter or WOrd"); } */
+  SerialBT.println("The required Letter or WOrd"); } */
 
 if((flexvalue_1>2050)and(flexvalue_1<=2250)and(flexvalue_2>3070)and(flexvalue_2<=3270)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3900)and(flexvalue_5<=4095))
 {
