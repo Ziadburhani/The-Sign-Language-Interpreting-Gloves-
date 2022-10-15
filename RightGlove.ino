@@ -306,7 +306,7 @@ else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2500)and(flexval
   SerialBT.println('C');
   Serial.println("Letter C");
 }
-else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3800)and(flexvalue_3<=4000)and(flexvalue_4>3800)and(flexvalue_1<=4000)and(flexvalue_5>3000)and(flexvalue_1<=3200))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3800)and(flexvalue_3<=4000)and(flexvalue_4>3800)and(flexvalue_1<=4000)and(flexvalue_5>3000)and(flexvalue_5<=3200)and(g.gyro.x>0.05)and(g.gyro.x<=0.08)and(g.gyro.y>0.07)and(g.gyro.y<=0.10))
 {
   SerialBT.println('D');
   Serial.println("Letter D");
@@ -322,31 +322,31 @@ else if((flexvalue_1>2100)and(flexvalue_1<=2300)and(flexvalue_2>2400)and(flexval
   SerialBT.println('F');
   Serial.println("Letter F");
 }
-else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2300)and(flexvalue_2<=2500)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3600)and(flexvalue_5<=3800))
+else if((flexvalue_1>2300)and(flexvalue_1<=2500)and(flexvalue_2>2300)and(flexvalue_2<=2500)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3600)and(flexvalue_5<=3800)and(g.gyro.x>0.08)and(g.gyro.x<=0.11)and(g.gyro.y>0.06)and(g.gyro.y<=0.09))
 {
   SerialBT.println('G');
-  Serial.println("Letter G");
+  Serial.println("Letter G"); //Differentiate it from Q
 }
-else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2500)and(flexvalue_3<=2700)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3000)and(flexvalue_5<=3200))
+else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2500)and(flexvalue_3<=2700)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3000)and(flexvalue_5<=3200)and(g.gyro.x>0.04)and(g.gyro.x<=0.07)and(g.gyro.y>0.07)and(g.gyro.y<=0.10))
 {
   SerialBT.println('H');
-  Serial.println("Letter H");
+  Serial.println("Letter H"); //Differentiate it from U
 }
-else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
+else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250)and(g.gyro.x>0.10)and(g.gyro.x<=0.13)and(g.gyro.y>0.05)and(g.gyro.y<=0.08))
 {
   SerialBT.println('I');
-  Serial.println("Letter I");
+  Serial.println("Letter I"); //Differentiate it from J
   delay(1000);
 }
-else if((flexvalue_1>2900)and(flexvalue_1<=3100)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2100)and(flexvalue_5<=2300))
+else if((flexvalue_1>2900)and(flexvalue_1<=3100)and(flexvalue_2>3400)and(flexvalue_2<=3600)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2100)and(flexvalue_5<=2300)and(g.gyro.x>0.42)and(g.gyro.x<=0.72)and(g.gyro.y>1.65)and(g.gyro.y<=1.95))
 {
   SerialBT.println('J');
-  Serial.println("Letter J");
+  Serial.println("Letter J"); //Differentiate it from I
 }
-else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2900)and(flexvalue_3<=3100)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3100)and(flexvalue_5<=3300))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>2900)and(flexvalue_3<=3100)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3100)and(flexvalue_5<=3300)and(g.gyro.x>0.07)and(g.gyro.x<=0.10)and(g.gyro.y>0.05)and(g.gyro.y<=0.08))
 {
   SerialBT.println('K');
-  Serial.println("Letter K");
+  Serial.println("Letter K"); //Differentiate it from P
 }
 else if((flexvalue_1>2200)and(flexvalue_1<=2400)and(flexvalue_2>2100)and(flexvalue_2<=2300)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3600)and(flexvalue_5<=3800))
 {
@@ -368,15 +368,15 @@ else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>3100)and(flexval
   SerialBT.println('O');
   Serial.println("Letter O");
 }
-else if((flexvalue_1>2500)and(flexvalue_1<=2700)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3000)and(flexvalue_3<=3200)and(flexvalue_4>3800)and(flexvalue_4<=4000)and(flexvalue_5>2900)and(flexvalue_5<=3100))
+else if((flexvalue_1>2500)and(flexvalue_1<=2700)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3000)and(flexvalue_3<=3200)and(flexvalue_4>3800)and(flexvalue_4<=4000)and(flexvalue_5>2900)and(flexvalue_5<=3100)and(g.gyro.x>0.01)and(g.gyro.x<=0.04)and(g.gyro.y>-0.05)and(g.gyro.y<=-0.08))
 {
   SerialBT.println('P');
-  Serial.println("Letter P");
+  Serial.println("Letter P"); //Differentiate it from K
 }
-else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2200)and(flexvalue_2<=2400)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3300)and(flexvalue_5<=3500))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2200)and(flexvalue_2<=2400)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3300)and(flexvalue_5<=3500)and(g.gyro.x>-0.10)and(g.gyro.x<=-0.13)and(g.gyro.y>-0.28)and(g.gyro.y<=-0.32))
 {
   SerialBT.println('Q');
-  Serial.println("Letter Q");
+  Serial.println("Letter Q"); //Differentiate it from G
 }
 else if((flexvalue_1>2700)and(flexvalue_1<=2900)and(flexvalue_2>1900)and(flexvalue_2<=2100)and(flexvalue_3>2600)and(flexvalue_3<=2800)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2900)and(flexvalue_5<=3100))
 {
@@ -391,7 +391,7 @@ else if((flexvalue_1>2800)and(flexvalue_1<=30000)and(flexvalue_2>3500)and(flexva
 else if((flexvalue_1>2200)and(flexvalue_1<=2400)and(flexvalue_2>3200)and(flexvalue_2<=3400)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3200)and(flexvalue_5<=3400))
 {
   SerialBT.println('T');
-  Serial.println("Letter T");
+  Serial.println("Letter T"); // should use a digital pin to differentiate T from M & N
 }
 else if((flexvalue_1>2500)and(flexvalue_1<=2700)and(flexvalue_2>1900)and(flexvalue_2<=2100)and(flexvalue_3>2400)and(flexvalue_3<=2600)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2900)and(flexvalue_5<=3100))
 {
@@ -408,20 +408,20 @@ else if((flexvalue_1>2600)and(flexvalue_1<=2800)and(flexvalue_2>2000)and(flexval
   SerialBT.println('W');
   Serial.println("Letter W");
 }
-else if((flexvalue_1>2800)and(flexvalue_1<=3000)and(flexvalue_2>2800)and(flexvalue_2<=3000)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3500)and(flexvalue_5<=3700))
+else if((flexvalue_1>2800)and(flexvalue_1<=3000)and(flexvalue_2>2800)and(flexvalue_2<=3000)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3500)and(flexvalue_5<=3700)and(g.gyro.x>0.07)and(g.gyro.x<=0.10)and(g.gyro.y>0.05)and(g.gyro.y<=0.08))
 {
   SerialBT.println('X');
-  Serial.println("Letter X");
+  Serial.println("Letter X"); //Differentiate it from Z
 }
 else if((flexvalue_1>2000)and(flexvalue_1<=2200)and(flexvalue_2>3500)and(flexvalue_2<=3700)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>2050)and(flexvalue_5<=2250))
 {
   SerialBT.println('Y');
   Serial.println("Letter Y");
 }
-else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3400)and(flexvalue_5<=3600))
+else if((flexvalue_1>2400)and(flexvalue_1<=2600)and(flexvalue_2>2000)and(flexvalue_2<=2200)and(flexvalue_3>3900)and(flexvalue_3<=4095)and(flexvalue_4>3900)and(flexvalue_4<=4095)and(flexvalue_5>3400)and(flexvalue_5<=3600)and(g.gyro.x>0.05)and(g.gyro.x<=0.08)and(g.gyro.y>0.03)and(g.gyro.y<=0.06))
 {
   SerialBT.println('Z');
-  Serial.println("Letter Z");
+  Serial.println("Letter Z"); //Differentiate it from X
   delay(1000); // can change the delay depending on your requirements 
 } 
 }
